@@ -22,5 +22,5 @@ int main(void)
 {
   char *input = readline("Enter an int: ");
   int n = atoi(input);
-  printf("sum of digits of %d.\n", n, digit_sum(n));
+  printf("sum of digits of %d is %d.\n", n, digit_sum(n));
 }
